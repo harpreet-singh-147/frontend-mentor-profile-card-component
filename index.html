@@ -1,35 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
   <title>Frontend Mentor | Profile card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-  Victor Crest
-  26
-  London
 
-  80K
-  Followers
+  <main class="main">
+    <article class="card">
+      <div class="card__img-container">
+        <img src="./images/bg-pattern-card.svg" alt="" class="card__top-img">
+      </div>
 
-  803K
-  Likes
+      <figure class="card__figure">
+        <img src="./images/image-victor.jpg" alt="Victor Crest" class="card__figure-img">
+        <figcaption class="card__figcaption">
+          <h1 class="card__name-age"><span class="card__name">Victor Crest</span><span class="card__age">26</span></h1>
+          <span class="card__location">London</span>
+        </figcaption>
+      </figure>
 
-  1.4K
-  Photos
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+      <ul class="card__stats-list">
+        <li class="card__stats-item">
+          <span class="card__stats-number">80K</span>
+          <span class="card__stats-label car__stats-followers">Followers</span>
+        </li>
+        <li class="card__stats-item card__stats-likes-li">
+          <span class="card__stats-number">803K</span>
+          <span class="card__stats-label">Likes</span>
+        </li>
+        <li class="card__stats-item">
+          <span class="card__stats-number">1.4K</span>
+          <span class="card__stats-label">Photos</span>
+        </li>
+      </ul>
+      <span class="card__divider-line"></span>
+    </article>
+  </main>
+
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+      aria-label="Visit Frontend Mentor Website" rel="noopener noreferrer" referrerpolicy="no-referrer">Frontend
+      Mentor</a>. <br>
+    Coded by <a href="https://github.com/harpreet-singh-147" aria-label="More about Harpreet Singh" target="_blank"
+      rel="noopener noreferrer" referrerpolicy="no-referrer">Harpreet Singh</a>
+  </footer>
+
 </body>
+
 </html>
