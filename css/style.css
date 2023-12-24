@@ -68,7 +68,6 @@ body::before {
   flex-direction: column;
   justify-content: start;
   align-items: center;
-  /* border: 1px solid red; */
   position: relative;
 }
 
@@ -112,11 +111,9 @@ body::before {
 .card__stats-list {
   margin-top: 5rem;
   width: 100%;
-  /* border: 1px solid red; */
   display: flex;
   justify-content: space-around;
   padding: 0 2.7rem 0 2.1rem;
-  /* gap: 2rem; */
 }
 
 .card__stats-item {
