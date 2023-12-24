@@ -173,7 +173,7 @@ body::before {
 }
 
 @media only screen and (max-width: 375px) {
-  .main {
+  body::before {
     background-position: right 51.5vw bottom 39vh, left 35.5vw top 45.5vh;
   }
 }
